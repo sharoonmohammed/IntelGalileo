@@ -25,4 +25,4 @@ def gmail_unread_count(user, password):
     # get its text and convert it to an integer
     return int(count_obj.firstChild.wholeText)
 
-print 'You have',gmail_unread_count('disprojectgalileo@gmail.com', 'intelgalileo'),'unread messages'
+print 'You have',gmail_unread_count('xxx@gmail.com', 'password'),'unread messages'
